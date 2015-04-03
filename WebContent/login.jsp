@@ -24,7 +24,6 @@
 </head>
 
   <body>
-<!-- body starts here for Login.jsp -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
