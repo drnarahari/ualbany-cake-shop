@@ -2,9 +2,11 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>UAlbany Cake Shop Login Page</title>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+--><title>UAlbany Cake Shop Login Page</title>
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -20,7 +22,7 @@
 
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 </head>
-<body>
+<body >
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -30,57 +32,84 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" style="color:Orange"" href="Login.jsp">UAlbany Cake Shop</a>
+          <a class="navbar-brand" style="color:Orange;" href="Login.jsp">UAlbany Cake Shop</a>
         </div><!--
         <div id="navbar" class="navbar-collapse collapse">
         </div>
         --><div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
-            
+          <a class="navbar-brand" style="color:Orange;" href="Login.jsp">Logout</a>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
-      <div class="jumbotron" style="background-image: url('images/cake_register.jpg');background-repeat: no-repeat;background-size: 100% 100%;width: 100%;max-height: 100%;">
+      <div class="jumbotron">
       <div class="container">
-        <H2>Register</H2>
-        <div class="form-group">
-        <Table>
-		        <TR height="40">
-		        	<TD width="90">Full Name : </TD>
-		        	<TD width="700"><input type="text" placeholder="Fullname" class="form-control" width="50px" ></TD>
-		        </TR>
-		        <TR height="40">
-		        	<TD>Phone</TD>
-		        	<TD><input type="text" placeholder="Phone Number" class="form-control" width="50px" ></TD>
-		        </TR>
-		        <TR height="40">
-		        	<TD>Email</TD>
-		        	<TD><input type="text" placeholder="Email" class="form-control" width="50px" ></TD>
-		        </TR>
-		        <TR height="40">
-		        	<TD>Address</TD>
-		        	<TD><input type="text" placeholder="Address" class="form-control" width="50px" ></TD>
-		        </TR>
-		        <TR height="40">
-		        	<TD>Username</TD>
-		        	<TD><input type="text" placeholder="Username" class="form-control" width="50px" >
-		        	</TD>
-		        </TR>
-		        <TR height="40">
-		        	<TD>Password</TD>
-		        	<TD><input type="Password" placeholder="Password" class="form-control" width="50px" ></TD>
-		        </TR>
-		        <TR height="75">
-		        <TD colspan="2"> <button type="submit" class="btn btn-success" width="75">Register</button></TD>
-		        </TR>
-		    </Table>
+      <p style="color: olive;">WELCOME USER</p>
+      <Table height="150px">
+			<TR>
+				<TD> <img src="images/download.jpg"></img></TD>
+				<TD>
+				<table cellpadding="20px" style="margin: 50px">
+						<TR >
+							<TD><h3>Cake 1</h3></TD>
+						</TR>
+						<TR>
+							<TD><p>Valid Content goes here</p></TD>
+						</TR>
+						<TR>
+							<TD><p><a class="btn btn-primary btn-lg" href="#" role="button">More.. &raquo;</a></p></TD>
+						</TR>
+				</table>	
+				</TD>
+			</TR> 
+			<TR>
+				<TD> <img src="images/cake 2.jpg"></img></TD>
+				<TD>
+				<table cellpadding="20px" style="margin: 50px">
+						<TR >
+							<TD><h3>Cake 2</h3></TD>
+						</TR>
+						<TR>
+							<TD><p>Valid Content goes here</p></TD>
+						</TR>
+						<TR>
+							<TD><p><a class="btn btn-primary btn-lg" href="#" role="button">More.. &raquo;</a></p></TD>
+						</TR>
+				</table>	
+				</TD>		
+			</TR>  
+			<TR>
+				<TD> <img src="images/cake 3.jpg"></img></TD>
+				<TD>
+				<table cellpadding="20px" style="margin: 50px">
+						<TR >
+							<TD><h3>Cake 3</h3></TD>
+						</TR>
+						<TR>
+							<TD><p>Valid Content goes here</p></TD>
+						</TR>
+						<TR>
+							<TD><p><a class="btn btn-primary btn-lg" href="#" role="button">More.. &raquo;</a></p></TD>
+						</TR>
+				</table>	
+				</TD>		
+			</TR>     
+      </Table>
         </div>
-        <!--<p>Valid Content goes here</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      --></div>
     </div>
+
+    <div class="container">
+      
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; College Project</p>
+      </footer>
+    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
