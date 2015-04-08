@@ -43,7 +43,7 @@
 
       <div class="starter-template">
         <h1>Successfully Registered!</h1>
-        <p class="lead">You can <a href="Login.jsp">login</a> now</p>
+        <p class="lead">You can <a href="login.jsp">login</a> now</p>
       </div>
 
     </div><!-- /.container -->
