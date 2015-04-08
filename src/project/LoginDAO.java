@@ -19,7 +19,7 @@ public static LoginBean login(LoginBean bean)
 Statement stmt = null;
 String uname = bean.getUsername();
 String password = bean.getPassword();
-String searchQuery = "select * from ualbcake.users where uname='" + uname + "' AND password='" + password + "'";
+String searchQuery = "select * from ualbcake.users where username='" + uname + "' AND password='" + password + "'";
 
 
  
