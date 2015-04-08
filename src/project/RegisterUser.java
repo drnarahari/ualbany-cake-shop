@@ -40,7 +40,7 @@ public class RegisterUser extends HttpServlet{
  String address = request.getParameter("address");
  String type = request.getParameter("userType");
  
- String sql = "insert into ualbmarket.users(name,phone,uname,password,address,userType) values ('"+name+"','"+phone+"','"+username+"','"+password+"','"+address+"','"+type+"') ";
+ String sql = "insert into ualbcake.users(name,phone,uname,password,address,userType) values ('"+name+"','"+phone+"','"+username+"','"+password+"','"+address+"','"+type+"') ";
  
   Statement s = connection.createStatement();
   s.executeUpdate (sql);
