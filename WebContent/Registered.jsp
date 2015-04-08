@@ -31,18 +31,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" color="Orange">UAlbany Cake Shop</a>
+          <a class="navbar-brand" style="color:Orange;">UAlbany Cake Shop</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
       
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<br/><br/>
+<br/><br/><br/>
     <div class="container">
 
       <div class="starter-template">
-        <h1>Successfully Registered</h1>
+        <h1>Successfully Registered!</h1>
         <p class="lead">You can <a href="Login.jsp">login</a> now</p>
       </div>
 
