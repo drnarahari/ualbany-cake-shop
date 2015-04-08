@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
                 HttpSession session = request.getSession(true);
                 session.setAttribute("currentSessionUser",user.getUsername());
                 session.setAttribute("currentSessionType",user.getUserType());
-                response.sendRedirect("HomePage.jsp");
+                response.sendRedirect("welcome1.jsp");
             }else
                 response.sendRedirect("LoginFailed.jsp");
         } catch (Throwable exc)
