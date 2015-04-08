@@ -11,7 +11,7 @@
     <script src="js/html5shiv.js"></script>
   <![endif]--><!-- Fav and touch icons -->
 	<link href="img/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
-	<link href="img/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+	
 	<link href="img/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
 	<link href="img/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed" />
 	<link href="img/favicon.png" rel="shortcut icon" />
@@ -33,7 +33,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+<<<<<<< HEAD
           <a class="navbar-brand" href="#">UAlbany Cake Shop</a>
+=======
+          <a class="navbar-brand" style="color:Orange;" href="#">UAlbany Cake Shop</a>
+        </div><!--
+        <div id="navbar" class="navbar-collapse collapse">
+>>>>>>> origin/master
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
@@ -43,7 +49,15 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
+<<<<<<< HEAD
             <button type="submit" class="btn btn-success">Sign in</button>
+=======
+            <a type="submit" href='welcome.jsp' class="btn btn-success">Sign in</a>
+            &nbsp;
+            <!--<button type="button" class="btn btn-success" href="javascript:child_open()">Not a member?? Register Now!!</button>
+          -->
+          <a href='Register.jsp' class="btn btn-success" >Not a Member??? Register Now</a>
+>>>>>>> origin/master
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -52,14 +66,18 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
+<<<<<<< HEAD
         <h1>Welcome!</h1>
         <p>If you are not a member yet, please register by clicking the button below</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Register &raquo;</a></p>
+=======
+        <img src="images/banner_cake.jpg" />
+>>>>>>> origin/master
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+      <!-- Example row of columns --><!--
       <div class="row">
         <div class="col-md-4">
           <h2>Fill some info</h2>
@@ -71,10 +89,18 @@
           <p>Fill some information </p>
        </div>
         <div class="col-md-4">
+<<<<<<< HEAD
           <h2>Fill some info 3</h2>
           <p>Fill some information </p>
        </div>
       </div>
+=======
+          <h2>Cake 3</h2>
+          <p>Some images of cake goes here</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      --></div>
+>>>>>>> origin/master
 
       <hr>
 
