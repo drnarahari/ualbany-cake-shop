@@ -10,7 +10,7 @@
    <servlet>
     <javaee:display-name>RegisterUser</javaee:display-name>
     <servlet-name>RegisterUser</servlet-name>
-    <servlet-class>demo.RegisterUser</servlet-class>
+    <servlet-class>project.RegisterUser</servlet-class>
   </servlet>
     
   <servlet-mapping>

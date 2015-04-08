@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=windows-1256" pageEncoding="windows-1256" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,7 +47,7 @@
         </div>
 
         <div class="col-lg-8 col-lg-offset-2">
-            <form id="defaultForm" method="post" class="form-horizontal" action="RegisterUser.java">
+            <form id="defaultForm" method="post" class="form-horizontal" action="RegisterUser"  method ="GET">
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Name</label>
                     <div class="col-lg-5">
