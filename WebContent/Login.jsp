@@ -1,8 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-	<title>UAlbany Cake Shop | Home</title>
+	<title>Vijay Ananth | Home</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" /><!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /--><!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /--><!--script src="js/less-1.3.3.min.js"></script--><!--append ‘#!watch’ to the browser URL, then refresh the page. -->
@@ -11,20 +13,18 @@
     <script src="js/html5shiv.js"></script>
   <![endif]--><!-- Fav and touch icons -->
 	<link href="img/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
-	
+	<link href="img/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
 	<link href="img/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
 	<link href="img/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed" />
 	<link href="img/favicon.png" rel="shortcut icon" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-	</script><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
-	</script><script src="http://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.7/script.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.7/script.min.js"></script>
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.css" rel="stylesheet" />
 	<style type="text/css">
 	</style>
-</head>
-
-  <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+<body >
+<nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,15 +33,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-<<<<<<< HEAD
-          <a class="navbar-brand" href="#">UAlbany Cake Shop</a>
-=======
           <a class="navbar-brand" style="color:Orange;" href="#">UAlbany Cake Shop</a>
         </div><!--
         <div id="navbar" class="navbar-collapse collapse">
->>>>>>> origin/master
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        --><div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
@@ -49,30 +45,19 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-<<<<<<< HEAD
-            <button type="submit" class="btn btn-success">Sign in</button>
-=======
             <a type="submit" href='welcome.jsp' class="btn btn-success">Sign in</a>
             &nbsp;
             <!--<button type="button" class="btn btn-success" href="javascript:child_open()">Not a member?? Register Now!!</button>
           -->
           <a href='Register.jsp' class="btn btn-success" >Not a Member??? Register Now</a>
->>>>>>> origin/master
           </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+      <div class="jumbotron">
       <div class="container">
-<<<<<<< HEAD
-        <h1>Welcome!</h1>
-        <p>If you are not a member yet, please register by clicking the button below</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Register &raquo;</a></p>
-=======
         <img src="images/banner_cake.jpg" />
->>>>>>> origin/master
       </div>
     </div>
 
@@ -80,32 +65,26 @@
       <!-- Example row of columns --><!--
       <div class="row">
         <div class="col-md-4">
-          <h2>Fill some info</h2>
-          <p>Fill some information </p>
-         
+          <h2>Cake 1</h2>
+          <p>Some images of cake goes here</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Fill some info 2</h2>
-          <p>Fill some information </p>
+          <h2>Cake 2</h2>
+          <p>Some images of cake goes here</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-<<<<<<< HEAD
-          <h2>Fill some info 3</h2>
-          <p>Fill some information </p>
-       </div>
-      </div>
-=======
           <h2>Cake 3</h2>
           <p>Some images of cake goes here</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
       --></div>
->>>>>>> origin/master
 
       <hr>
 
       <footer>
-        <p>&copy; UAlbany Cake Shop 2014</p>
+        <p>&copy; College Project</p>
       </footer>
     </div> <!-- /container -->
 
@@ -113,7 +92,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-   
-  </body>
+    
+    
+</body>
 </html>

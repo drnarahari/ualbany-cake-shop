@@ -42,14 +42,15 @@
       </div>
     </nav>
 
-      <div class="jumbotron" style="background-image: url('images/cake_register.jpg');background-repeat: no-repeat;background-size: 100% 100%;width: 100%;max-height: 100%;">
+   <!--   <div class="jumbotron" style="background-image: url('images/cake_register.jpg');background-repeat: no-repeat;background-size: 100% 100%;width: 100%;max-height: 100%;"> -->
+     <div class="jumbotron">
       <div class="container">
         <H2>Register</H2>
         <div class="form-group">
         <Table>
 		        <TR height="40">
 		        	<TD width="90">Full Name : </TD>
-		        	<TD width="700"><input type="text" placeholder="Fullname" class="form-control" width="50px" ></TD>
+		        	<TD width="700"><input type="text" placeholder="Full Name" class="form-control" width="50px" ></TD>
 		        </TR>
 		        <TR height="40">
 		        	<TD>Phone</TD>
