@@ -65,7 +65,7 @@
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Username</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="uname" />
+                        <input type="text" class="form-control" name="username" />
                     </div>
                 </div>
 				
