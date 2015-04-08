@@ -112,7 +112,7 @@ $(document).ready(function() {
             validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            fullname: {
+            name: {
                 message: 'Please enter a valid name',
                 validators: {
                     notEmpty: {
@@ -129,15 +129,15 @@ $(document).ready(function() {
                     }
                 },
             
-            timestamp: {
-                message: 'Invalid timestamp',
+            phone: {
+                message: 'Invalid phone number',
                 validators: {
                     notEmpty: {
-                        message: 'Timestamp field cannot be empty'
+                        message: 'Phone cannot be empty'
                     },
-					  date: {
-                        format: 'YYYY/MM/DD',
-                        message: 'The timestamp is not valid'
+                    regexp: {
+                        regexp:/^[0-9]+$/,
+                        message: 'Only numbers accepted in this field'
                     }
 				
 				
@@ -145,32 +145,32 @@ $(document).ready(function() {
                
                 }
             },
-              random_number: {
-                message: 'Invalid random number',
+              username: {
+                message: 'Invalid username',
                 validators: {
                     notEmpty: {
-                        message: 'The random number field is required and can\'t be empty'
+                        message: 'The username field is required and cannot be empty'
                     },
 					stringLength: {
                         min: 4,
-                        max: 4,
-                        message: 'random number must be a 4 digit integer'
+                       
+                        message: 'must be at least 4 characters'
                     }
                 
                   
                 }
             },
 			
-			message: {
+			password: {
                 message: 'The message is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'The message field is required and can\'t be empty'
+                        message: 'The password field cannot be empty'
                     },
 					stringLength: {
                         min: 4,
                         
-                        message: 'Only message of string length greater than 4 accepted'
+                        message: 'Password must be at least 4 characters'
                     }
 				
               
@@ -178,21 +178,18 @@ $(document).ready(function() {
                 }
             },
 			
-			message_id: {
-                message: 'The message id is not valid',
+			address: {
+                message: 'The address is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'The message_id is required and can\'t be empty'
+                        message: 'Address is required and can\'t be empty'
                     },
 					stringLength: {
-                        min: 6,
-						max: 6,
-                        message: 'Message id must be a 6 digit integer'
-                    },
-					 regexp: {
-                        regexp:/^[0-9]+$/,
-                        message: 'Only numbers accepted as message id at this point'
+                        min: 4,
+					
+                        message: 'Address too short'
                     }
+				
                    
                 }
             }
