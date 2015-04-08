@@ -46,7 +46,7 @@
             &nbsp;
             <!--<button type="button" class="btn btn-success" href="javascript:child_open()">Not a member?? Register Now!!</button>
           -->
-          <a href='Register.html' class="btn btn-success" >Not a Member??? Register Now</a>
+          <a href='Register.jsp' class="btn btn-success" >Not a Member??? Register Now</a>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
