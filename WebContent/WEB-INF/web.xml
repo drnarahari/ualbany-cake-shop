@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <javaee:display-name>LoginExample</javaee:display-name>
+  <servlet>
+    <javaee:display-name>LoginServlet</javaee:display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>project.LoginServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <javaee:display-name>RegisterUser</javaee:display-name>
+    <servlet-name>RegisterUser</servlet-name>
+    <servlet-class>demo.RegisterUser</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>RegisterUser</servlet-name>
+    <url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+     
+</web-app>
