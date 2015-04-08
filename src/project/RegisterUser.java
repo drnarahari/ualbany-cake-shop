@@ -24,7 +24,7 @@ public class RegisterUser extends HttpServlet{
 {
   PrintWriter out = response.getWriter();
   //Establish connection to MySQL database
-  String connectionURL = "jdbc:mysql://localhost:3306/";
+  String connectionURL = "jdbc:mysql://localhost:3306/ualbcake";
   Connection connection= null;
   ResultSet rs;
   response.setContentType("text/html");
@@ -40,7 +40,7 @@ public class RegisterUser extends HttpServlet{
  String address = request.getParameter("address");
  String type = request.getParameter("userType");
  
- String sql = "insert into ualbcake.users(name,phone,uname,password,address,userType) values ('"+name+"','"+phone+"','"+username+"','"+password+"','"+address+"','"+type+"') ";
+ String sql = "insert into users(name,phone,username,password,address,userType) values ('"+name+"','"+phone+"','"+username+"','"+password+"','"+address+"','"+type+"') ";
  
   Statement s = connection.createStatement();
   s.executeUpdate (sql);
