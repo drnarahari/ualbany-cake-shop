@@ -14,7 +14,7 @@ public class ConnectionManager
         try
         {
             String url = "jdbc:mysql://localhost:3306/";
-            String dbName ="ualbmarket"; 
+            String dbName ="ualbcake"; 
             String uname = "root";
             String pwd = "root";
  
