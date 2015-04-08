@@ -51,21 +51,21 @@
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Name</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="fullname" />
+                        <input type="text" class="form-control" name="name" />
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Phone</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="timestamp"  />
+                        <input type="text" class="form-control" name="phone"  />
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Username</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="random_number" />
+                        <input type="text" class="form-control" name="uname" />
                     </div>
                 </div>
 				
@@ -73,14 +73,14 @@
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Password</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="message" />
+                        <input type="password" class="form-control" name="password" />
                     </div>
                 </div>
 				
 				 <div class="form-group">
                     <label class="col-lg-3 control-label">Address</label>
                     <div class="col-lg-5">
-                        <input type="text" class="form-control" name="message_id" />
+                        <input type="text" class="form-control" name="address" />
                     </div>
                 </div>
                  <div class="form-group">
