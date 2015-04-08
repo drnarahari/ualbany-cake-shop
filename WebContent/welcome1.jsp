@@ -83,7 +83,7 @@ if(session.getAttribute("currentSessionType").toString().equals("buyer") )
       <div class="jumbotron">
         <h1>Welcome <b><%= type%></b></h1>
         <p>UAlbany Cake Shop is a great place to buy cakes. We make sure you have the best cake shopping experience ever!</p>
-        <p>          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Start Buying! &raquo;</a>
+        <p>          <a class="btn btn-lg btn-primary" href="#" role="button">Start Buying! &raquo;</a>
         </p>
       </div>
 
@@ -129,7 +129,7 @@ else
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./"><%= user1%> <span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="#"><%= user1%> <span class="sr-only">(current)</span></a></li>
          
               <li><a href="Logout.jsp">Logout</a></li>
             </ul>
@@ -140,9 +140,9 @@ else
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Welcome <b><%= type2%></b></h1>
-        <p></p>
+        <p>UAlbany Cake Shop makes it very easy for you to sell your cakes!</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Start Buying! &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="#" role="button">Add Cakes! &raquo;</a>
         </p>
       </div>
 

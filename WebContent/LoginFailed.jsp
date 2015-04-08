@@ -14,7 +14,7 @@
 <p><font color="white"  face="verdana" size =4 align=center>Bad Luck ! Authentication Failed.</font></p>
 <p><font color="white"  face="verdana" size =4 align=center>Please Click on the link to go back and try again</font></p>
 </center>
-<center><a href="HomePageA.jsp">HomePage</a></center>
+<center><a href="login.jsp">Go to Login</a></center>
 
 </body>
 </html>
