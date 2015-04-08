@@ -35,19 +35,24 @@
         <div id="navbar" class="navbar-collapse collapse">
         </div>
         --><div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
+          <form class="navbar-form navbar-right" name="actionForm" action="LoginServlet" method ="GET" >
+         
             <div class="form-group">
-              <input type="text" placeholder="Username" class="form-control">
+              <input type="text" name="username" placeholder="Username" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" name="password" placeholder="Password" class="form-control">
             </div>
-            <a type="submit" href='welcome.jsp' class="btn btn-success">Sign in</a>
-            &nbsp;
+            <button type="submit" class="btn btn-success">Sign in</button>
+                      &nbsp;
+           <a href='Register.jsp' class="btn btn-success" >Not a Member??? Register Now</a>
+             </form>
             <!--<button type="button" class="btn btn-success" href="javascript:child_open()">Not a member?? Register Now!!</button>
           -->
-          <a href='Register.jsp' class="btn btn-success" >Not a Member??? Register Now</a>
-          </form>
+          <div class="form-group">
+         
+</div>
+         
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
