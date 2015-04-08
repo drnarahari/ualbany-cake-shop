@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">UAlbany Cake Shop</a>
+          <a class="navbar-brand" style="color:Orange;" href="#">UAlbany Cake Shop</a>
         </div><!--
         <div id="navbar" class="navbar-collapse collapse">
         </div>
@@ -43,7 +43,7 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <a type="submit" href='welcome.jsp' class="btn btn-success">Sign in</a>
             &nbsp;
             <!--<button type="button" class="btn btn-success" href="javascript:child_open()">Not a member?? Register Now!!</button>
           -->
@@ -55,14 +55,12 @@
 
       <div class="jumbotron">
       <div class="container">
-        <h1>Cake Shop</h1>
-        <p>Valid Content goes here</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <img src="images/banner_cake.jpg" />
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+      <!-- Example row of columns --><!--
       <div class="row">
         <div class="col-md-4">
           <h2>Cake 1</h2>
@@ -79,7 +77,7 @@
           <p>Some images of cake goes here</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
-      </div>
+      --></div>
 
       <hr>
 
