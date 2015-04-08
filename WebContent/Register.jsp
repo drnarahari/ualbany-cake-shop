@@ -47,7 +47,7 @@
         </div>
 
         <div class="col-lg-8 col-lg-offset-2">
-            <form id="defaultForm" method="post" class="form-horizontal" action="RegisterUser"  method ="GET">
+            <form id="defaultForm" class="form-horizontal" action="RegisterUser"  method ="GET">
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Name</label>
                     <div class="col-lg-5">
