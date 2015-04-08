@@ -73,6 +73,12 @@
 		        	<TD>Password</TD>
 		        	<TD><input type="Password" placeholder="Password" class="form-control" width="50px" ></TD>
 		        </TR>
+		        <br /><br />
+<select name="userType" >
+                <option value="buyer" selected>Buyer</option>
+                <option value="seller">Seller</option>
+              </select>
+              <br /><br />
 		        <TR height="75">
 		        <TD colspan="2"> <button type="submit" class="btn btn-success" width="75">Register</button></TD>
 		        </TR>
@@ -82,7 +88,6 @@
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       --></div>
     </div>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
